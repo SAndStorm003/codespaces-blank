@@ -1,0 +1,70 @@
+/* ******************** CSS RESET ********************* */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+    font-family: 'Kanit', sans-serif;
+    transition:0.3s ease-in-out;
+}
+
+*:focus{
+    color: white;
+    text-shadow: 1px 1px 10px rgb(182, 238, 255);
+}
+
+/* *************** FIRST ITEM BUG FIX ******************* */
+
+.first-item{
+    position: relative;
+    top: 58px;
+}
+
+/* **************** GLOBAL CUSMIZATION ****************** */
+
+.text-yellow{
+    color: yellow;
+}
+
+.text-yellow:hover{
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+
+.text-yellow:focus{
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+
+.active{
+    border-bottom: 0.5px solid white;
+    border-radius: 1px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(182, 238, 255);
+}
+
+.container-fluid{
+    position: relative;
+}
+
+/* *****************CUSTOMIZE******************* */
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.carousel-item>img{
+    max-height: 50vh;
+}
+.carousel-caption>h5,p{
+    text-shadow: 3px 3px 15px black;
+}
